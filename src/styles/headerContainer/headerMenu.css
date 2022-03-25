@@ -1,0 +1,22 @@
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 7.6rem;
+  margin-bottom: 9.7rem;
+}
+
+.header-menu-nav {
+  width: 28%;
+}
+
+.header-menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu-item a {
+  font-size: var(--text-header);
+  font-weight: var(--font-text-header);
+  color: var(--text-color);
+}

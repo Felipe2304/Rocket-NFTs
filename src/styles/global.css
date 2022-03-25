@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: var(--text-sub-title);
+  color: var(--text-color);
+}
+
+.sub-title b {
+  color: var(--color-logo);
+}
