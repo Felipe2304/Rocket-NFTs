@@ -1,0 +1,64 @@
+.popular-week-container {
+  margin-bottom: 15.1rem;
+}
+
+.popular-week-content {
+  display: flex;
+  justify-content: space-between;
+  height: 71.8rem;
+}
+
+.division {
+  border: 1px solid var(--subtitle-color);
+}
+
+.popular-week-title {
+  font-size: var(--text-sub-title);
+  color: var(--text-color);
+  margin-bottom: 15.8rem;
+}
+
+.popular-week-title b {
+  color: var(--color-logo);
+}
+
+.popular-wrapper-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popular-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-box-astronaut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4.4rem;
+}
+
+.astronaut {
+  font-size: var(--text-description);
+  color: var(--text-color);
+}
+
+.info-name-rkt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.6rem;
+}
+
+.name {
+  font-size: var(--text);
+  color: var(--subtitle-color);
+}
+
+.rkt {
+  font-size: var(--text);
+  color: var(--color-logo);
+  font-weight: 400;
+}

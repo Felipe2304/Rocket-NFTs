@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -26,4 +27,10 @@ body {
 
 .sub-title b {
   color: var(--color-logo);
+}
+
+.container-center {
+  width: 100%;
+  background-color: var(--body-background);
+  padding: 15rem 7rem 15rem 8.3rem;
 }

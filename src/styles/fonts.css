@@ -1,7 +1,5 @@
 :root {
-  --text-header: 1.8rem;
-  --font-text-header: 400;
-  --font-bold: 700 bold;
+  --text: 1.8rem;
   --text-sub-title: 5rem;
-  --font-regular: 400;
+  --text-description: 3rem;
 }

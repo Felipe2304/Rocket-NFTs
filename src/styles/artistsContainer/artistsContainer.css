@@ -1,0 +1,76 @@
+.artists-content {
+  width: 100%;
+}
+
+.artists-title {
+  font-size: var(--text-sub-title);
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 12rem;
+}
+
+.artists-title b {
+  color: var(--color-logo);
+}
+
+.best-artists {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11.1rem 6rem;
+  margin-bottom: 5.4rem;
+}
+
+.best-artists-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15rem;
+  width: 35rem;
+  background-color: var(--card-color);
+  transition-duration: 300ms;
+  padding: 2.5rem 1.7rem 2.5rem 3.2rem;
+}
+
+.best-artists-card:hover {
+  background-color: #ff5b50;
+}
+
+.info-artists {
+  width: 15.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-artists {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  transition-duration: 300ms;
+}
+
+.quantity-photographs {
+  font-size: 2rem;
+  color: var(--color-logo);
+  transition-duration: 300ms;
+}
+
+.best-artists-card:hover .name-artists {
+  color: var(--text-color);
+}
+.best-artists-card:hover .quantity-photographs {
+  color: var(--text-color);
+}
+
+.see-artists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 28rem;
+}
+
+.see-artists-text {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-right: 1.3rem;
+}

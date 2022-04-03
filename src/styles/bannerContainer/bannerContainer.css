@@ -1,0 +1,82 @@
+.banner-container {
+  display: flex;
+  height: 66rem;
+  width: 100%;
+  background-color: var(--body-background);
+  border-bottom: 1px solid var(--subtitle-color);
+}
+
+.banner-container-numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 27.3rem;
+  padding: 13rem 6.7rem 13rem 7.9rem;
+}
+
+.number-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  font-size: var(--text-sub-title);
+  color: var(--text-color);
+  margin-bottom: 8px;
+}
+
+.number-box-text {
+  font-size: var(--text);
+  color: var(--subtitle-color);
+}
+
+.banner-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--subtitle-color);
+}
+
+.banner-article {
+  width: 95.2rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.banner-article-wrapper {
+  width: 43.5rem;
+}
+
+.banner-article-text {
+  font-size: var(--text);
+  color: var(--text-color);
+  margin-bottom: 6.3rem;
+}
+
+.banner-article-text a {
+  color: var(--color-logo);
+  text-decoration: underline;
+}
+
+.banner-article-text-link {
+  font-size: var(--text);
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+.banner-container-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-image {
+  width: 100%;
+}
+.banner-image img {
+  width: 100%;
+}

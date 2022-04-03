@@ -4,12 +4,9 @@
   margin-bottom: 10rem;
 }
 
-/* .content-article {
-} */
-
 .content-article-text {
-  font-size: var(--text-header);
-  font-weight: var(--font-regular);
+  font-size: var(--text);
+  font-weight: 400;
   color: var(--text-color);
   margin-bottom: 3.1rem;
 }
@@ -26,16 +23,16 @@
   display: flex;
   flex-direction: column;
   align-self: flex-end;
-  font-size: var(--text-header);
+  font-size: var(--text);
   color: var(--text-color);
   margin-left: 0.6rem;
 }
 
 .info-content b {
-  font-weight: var(--font-bold);
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
 .info {
-  font-weight: var(--font-regular);
+  font-weight: 400;
 }

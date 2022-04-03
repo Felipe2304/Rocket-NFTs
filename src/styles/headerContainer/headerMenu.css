@@ -16,7 +16,22 @@
   align-items: center;
 }
 .header-menu-item a {
-  font-size: var(--text-header);
-  font-weight: var(--font-text-header);
+  font-size: var(--text);
+  font-weight: 400;
   color: var(--text-color);
+}
+
+.header-menu-conect {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 230px;
+  background-color: var(--text-color);
+  cursor: pointer;
+}
+
+.conect-text {
+  font-weight: 700 bold;
+  font-size: 1.6rem;
 }
